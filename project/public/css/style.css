@@ -1,0 +1,387 @@
+
+/* Главная */
+header {
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 23px;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+    background: #181818;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+.textInfo {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+    text-align: center;
+}
+
+
+div#description>h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+div#description>p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:600px;
+    flex-wrap: wrap;
+}
+.centerRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.start {
+    justify-content: flex-start !important;
+}
+.yellow {
+    color: #FAB400;
+}
+#tel {
+    position: relative;
+    width: 215px;
+    height: 49px;
+    background: #49616F;
+    border: 1.06522px solid #4BAED3;
+    box-sizing: border-box;
+    border-radius: 53.2609px;
+    margin: 60px 20px;
+}
+
+#wats {
+    position: relative;
+    width: 215px;
+    height: 49px;
+    background: #496F58;
+    border: 1.06522px solid #4ED34B;
+    box-sizing: border-box;
+    border-radius: 53.2609px;
+    margin: 60px 20px; 
+}
+
+button>img {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 2%;
+    margin: auto 0;
+    height: 85%;
+}
+
+button>span {
+    top: 27%;
+    bottom: 0%;
+    left: 25%;
+    margin: auto;
+    position: absolute;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.col-7 {
+
+    width: 770px;
+}
+
+.col-5 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+
+    width: 400px;
+    height: 100%;
+}
+
+.col-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.pages>button {
+    display:block;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    margin-bottom: 30px;
+    border-style: none;
+}
+#but10 {
+    background-color: #FAB400;
+}
+.pages {
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    margin: auto 0;
+    
+}
+.imgInfo {
+    margin: 0 auto;
+    width: auto;
+    height: 45px;
+    
+}
+/* Админка */
+.panelContainer {
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+}
+.admin {
+    display:flex;
+    flex-direction: column;
+
+}
+.panel {
+    text-align: start;
+    padding: 50px;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.5);
+}
+.panelEdit {
+    margin:20px;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background: rgba(238, 238, 238, 0.774);
+}
+.panelEdit > h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+}
+#editInfo > h3, #editBlock > h3, #editBack > h3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+a {
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+}
+a:hover {
+    color:#FAB400;
+    transition: 0.3s;
+}
+
+
+li  {
+    list-style-type: none;
+    margin-left:0;
+    margin-bottom:15px;
+}
+
+
+#auth > input  {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #49616F;
+
+}
+
+#editInfo > input {
+    margin-right: 15px;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #49616F;
+}
+#editInfo > button, #editBlock > button, #editBack > button{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #49616F;
+    border-radius: 15px;
+}
+#editInfo > button:hover, #editBlock > button:hover, #editBack > button:hover {
+    border: 1px solid #FAB400;
+    transition: 0.3s;
+}
+#auth > button  {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #49616F;
+    border-radius: 15px;
+}
+#auth > button:hover {
+    border: 1px solid #FAB400;
+    transition: 0.3s;
+}
+#authAdmin {
+    width: 350px;
+    padding:30px;
+    border-radius: 15px;
+    background-color: rgba(238, 238, 238, 0.774);
+
+}
+.labelAdmin {
+    text-align: center;
+    color:rgba(27, 27, 27, 0.774);
+    
+}
+
+.labelAdmin > h2 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+}
+#infoCompany , #block , #background {
+    display: none;
+}
+
+@media screen and (min-width:360px) and (max-width:845px) {
+    .container-mini {
+        display:flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .main {
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .pages {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .pages>button {
+        margin-right: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        justify-content: center;
+        width:400px;
+    }
+
+    .start {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around !important;
+
+    }
+
+    #description {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        text-align: center;
+    }
+    
+    .col-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+
+    }
+    .col-5 {
+        justify-content: center;
+
+    }
+    
+    .textInfo {
+        text-align: start;
+        margin-left: 20px;
+    }
+    .imgInfo {
+        margin:0 20px;
+        width: 54px;
+    }
+    #imgInfoDel {
+        margin:0 9px;
+        width: 75px;
+        height: 47px;
+    }
+
+    header {
+        margin-bottom:0; 
+    }
+
+    #tel {
+        margin: 10px;
+    }
+    #wats {
+        margin: 10px;
+    }
+    
+}
+
